@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ivy-test-lib": [
+        "dist/ivy-test-lib"
+      ],
+      "ivy-test-lib/*": [
+        "dist/ivy-test-lib/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
